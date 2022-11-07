@@ -69,7 +69,8 @@ int main()
     int factorial,result = 1;
     cout<<endl<<"Введите число для определения его факториала: ";
     cin >> factorial;
-    for(int i = 1; i <= factorial; i++) result *= i;
+    for(int i = 1; i <= factorial; i++) 
+        result *= i;
     cout<<"\n factorial = "<<result;
     
     // Задание 6
