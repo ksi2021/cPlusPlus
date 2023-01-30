@@ -137,6 +137,7 @@ next:
             cout << "Out of range" << endl;
     }
 
+    cout<<"Master test";
     system("pause");
     return 0;
 }
